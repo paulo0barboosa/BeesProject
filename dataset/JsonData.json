@@ -1,0 +1,20 @@
+{
+	"name": "JsonData",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "breweries.json",
+				"folderPath": "raw",
+				"container": "bronze"
+			}
+		},
+		"schema": {}
+	}
+}
