@@ -1,0 +1,12 @@
+{
+	"name": "GetJsonApi",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://api.openbrewerydb.org/v1/breweries",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
